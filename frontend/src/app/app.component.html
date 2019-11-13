@@ -1,0 +1,20 @@
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand">Clima Tempo</a>
+  <div class="form-inline">
+    <form [formGroup]="formFind" (ngSubmit)="onFormSubmit(formFind.value)">
+      <select
+        class="form-control form-control-lg select-item"
+        formControlName="city_name"
+      >
+        <option value="455827" selected="selected">Sao Paulo</option>
+        <option value="455821">Belo Horizonte</option>
+        <option value="455823">Porto Alegre</option>
+      </select>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Buscar
+      </button>
+    </form>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

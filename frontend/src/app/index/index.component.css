@@ -1,0 +1,40 @@
+.herader {
+  text-align: center;
+}
+.card {
+  margin-top: 15px;
+}
+.card-header {
+  text-align: center;
+}
+.card-body-items {
+  display: flex;
+}
+.card-body-items div {
+  width: 50%;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.row {
+  margin-bottom: 15px;
+  padding-bottom: 50px;
+}
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 200px;
+}
