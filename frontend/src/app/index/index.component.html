@@ -8,6 +8,7 @@
   <div class="wrapper" *ngIf="!loader">
     <div class="herader col-md-12">
       <h1>{{ data.results.city_name }}</h1>
+      <h1>{{data.results.temp}}°</h1>
       <h6>{{ data.results.date }} - Humidade: {{ data.results.humidity }}</h6>
     </div>
     <div class="row">

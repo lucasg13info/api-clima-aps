@@ -18,6 +18,7 @@ export class IndexComponent implements OnInit {
     });
 
     this.api.findCity.subscribe(values => {
+      console.log(values)
       this.data = values;
     });
   }
